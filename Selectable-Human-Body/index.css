@@ -1,0 +1,27 @@
+.human-body {
+  position: relative;
+  padding-top: 240px;
+  padding-left: 100px;
+  padding-bottom: 250px;
+  height: 700px;
+  width: 700px;
+  display: block;
+  margin: auto;
+}
+
+.human-body svg polygon  {
+  fill: #e6d00b;
+  fill-opacity: 0.2;
+  cursor: pointer;
+}
+
+.human-body svg polygon:hover {
+  fill: #57c9d5;
+  fill-opacity: 1;
+  filter: url(#pictureFilter);
+}
+
+
+.human-body svg polygon:hover#RightShoulder {
+  fill: #57c9d5;
+}
