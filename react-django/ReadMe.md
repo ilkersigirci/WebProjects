@@ -43,3 +43,17 @@
 ### Modify urls.py in reactDjango
 ### npm run dev -> In root
 ### python manage.py runserver -> In reactDjango
+
+## Adding Redux
+
+### npm i redux react-redux redux-thunk redux-devtools-extension
+### Create store.js in frontend/src/
+### Modify Add.js to add redux
+### Create reducers folder in frontend/src/
+### Create index.js in frontend/src/reducers/
+### Create actions folder in frontend/src/
+### Create type.js in frontend/src/actions/
+### Create leads.js in frontend/src/reducers/
+### npm i axios
+### Create leads.js in frontend/src/actions/
+### Modify frontend/components/Leads.js
